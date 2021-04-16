@@ -4,3 +4,6 @@ export const paths={
     aboutMe:"/about-me",
     project:"/project",
 }
+export const ImageSrc={
+    home:"/images/home-bg.jpg",
+}
