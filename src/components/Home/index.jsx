@@ -11,14 +11,8 @@ const Home=(props)=>{
     };
     if(loading)return <div className="loading flex a-center j-center">Loading...</div>
     return (
-        <HomeStyle color={colors} backgroundImage={ImageSrc.home}>
-            <div className="placeholder-bg"></div>
-            <div className="home-content flex a-center">
-                <div className="container">
-                    <div className="greeting">Hi, I'm HoangTM.</div>
-                    <div className="my-title">I'm Front-end Developer.</div>
-                </div>
-            </div>
+        <HomeStyle color={colors}>
+            
         </HomeStyle>
     )
 }

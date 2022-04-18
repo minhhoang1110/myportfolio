@@ -1,6 +1,5 @@
 import styled from "styled-components";
 const HomeStyle=styled.div`
-    background-image:url(${props=>props.backgroundImage || ''});
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(100vh - 115px);
